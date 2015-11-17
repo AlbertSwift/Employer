@@ -97,19 +97,25 @@
     NSMutableArray *rightUtilityButtons = [NSMutableArray new];
     TableShare *share = [ary objectAtIndex:indexPath.row];
     if (share.isShowing) {
-        [rightUtilityButtons sw_addUtilityButtonWithColor:
-         [UIColor colorWithRed:117.0f/255.0f green:117.0f/255.0f blue:117.0f/255.0f alpha:1.0f]
-                                                    title:@"Hidden"];
+//        [rightUtilityButtons sw_addUtilityButtonWithColor:
+//         [UIColor colorWithRed:117.0f/255.0f green:117.0f/255.0f blue:117.0f/255.0f alpha:1.0f]
+//                                                    title:@"Hidden"];
+        [rightUtilityButtons sw_addUtilityButtonWithColor:[UIColor colorWithRed:117.0f/255.0f green:117.0f/255.0f blue:117.0f/255.0f alpha:1.0f] icon:[UIImage imageNamed:@"hide.png"]];
         
     }else{
-        [rightUtilityButtons sw_addUtilityButtonWithColor:
-         [UIColor colorWithRed:102.0f/255.0f green:187.0f/255.0f blue:106.0f/255.0f alpha:1.0f]
-                                                    title:@"Showing"];
+//        [rightUtilityButtons sw_addUtilityButtonWithColor:
+//         [UIColor colorWithRed:102.0f/255.0f green:187.0f/255.0f blue:106.0f/255.0f alpha:1.0f]
+//                                                    title:@"Showing"];
+
+    [rightUtilityButtons sw_addUtilityButtonWithColor:[UIColor colorWithRed:102.0f/255.0f green:187.0f/255.0f blue:106.0f/255.0f alpha:1.0f] icon:[UIImage imageNamed:@"show.png"]];
+    
     }
     
-    [rightUtilityButtons sw_addUtilityButtonWithColor:
-     [UIColor colorWithRed:189.0f/255.0f green:189.0f/255.0f blue:189.0f/255.0f  alpha:1.0]
-                                                title:@"Edit"];
+//    [rightUtilityButtons sw_addUtilityButtonWithColor:
+//     [UIColor colorWithRed:189.0f/255.0f green:189.0f/255.0f blue:189.0f/255.0f  alpha:1.0]
+//                                                title:@"Edit"];
+
+    [rightUtilityButtons sw_addUtilityButtonWithColor:[UIColor colorWithRed:189.0f/255.0f green:189.0f/255.0f blue:189.0f/255.0f  alpha:1.0] icon:[UIImage imageNamed:@"edit.png"]];
     
     cell.rightUtilityButtons = rightUtilityButtons;
     cell.delegate = self;
@@ -229,7 +235,7 @@
         if (share.isShowing) {
             NSIndexPath *indexPath = [NSIndexPath indexPathForRow:i inSection:0];
             NSArray *indexPaths = [[NSArray alloc] initWithObjects:indexPath, nil];
-            [tblView reloadRowsAtIndexPaths:indexPaths withRowAnimation:UITableViewRowAnimationTop];
+            [tblView reloadRowsAtIndexPaths:indexPaths withRowAnimation:UITableViewRowAnimationFade];
         }
         i++;
     }
@@ -265,7 +271,7 @@
         share.isAnimation = NO;
         NSIndexPath *indexPath = [NSIndexPath indexPathForRow:[str intValue] inSection:0];
         NSArray *indexPaths = [[NSArray alloc] initWithObjects:indexPath, nil];
-        [tblView reloadRowsAtIndexPaths:indexPaths withRowAnimation:UITableViewRowAnimationBottom];
+        [tblView reloadRowsAtIndexPaths:indexPaths withRowAnimation:UITableViewRowAnimationFade];
     }
     
     [indexary removeAllObjects];
