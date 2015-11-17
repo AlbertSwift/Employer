@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>839B07BC-04CD-46A3-BBAB-FFA5AEC62587</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Employer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>569BDB8EEF99CFA863FD6AD748A4B8849A69835B</key>
+		<string>https://github.com/AlbertSwift/Employer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Employer.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>569BDB8EEF99CFA863FD6AD748A4B8849A69835B</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AlbertSwift/Employer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>569BDB8EEF99CFA863FD6AD748A4B8849A69835B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>569BDB8EEF99CFA863FD6AD748A4B8849A69835B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Employer</string>
+		</dict>
+	</array>
+</dict>
+</plist>

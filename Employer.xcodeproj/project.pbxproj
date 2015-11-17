@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E7EAA31E1BFB031C00BD3DFB /* demo.png in Resources */ = {isa = PBXBuildFile; fileRef = E7EAA31D1BFB031C00BD3DFB /* demo.png */; };
 		EBC82220CB3147AB0C5AD3B7 /* libPods-Employer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4DD0ADA37D2F366469955C2 /* libPods-Employer.a */; };
 		EC0A55D31BF7522000E84757 /* TempVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0A55D11BF7522000E84757 /* TempVC.m */; };
 		EC0A55D41BF7522000E84757 /* TempVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC0A55D21BF7522000E84757 /* TempVC.xib */; };
@@ -39,6 +40,7 @@
 		2997A3BB9BEA3E652A647F1F /* Pods-Employer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Employer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Employer/Pods-Employer.release.xcconfig"; sourceTree = "<group>"; };
 		710B0055535D6F8DE2FA741D /* Pods-Employer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Employer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Employer/Pods-Employer.debug.xcconfig"; sourceTree = "<group>"; };
 		B4DD0ADA37D2F366469955C2 /* libPods-Employer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Employer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7EAA31D1BFB031C00BD3DFB /* demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo.png; sourceTree = "<group>"; };
 		EC0A55D01BF7522000E84757 /* TempVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempVC.h; sourceTree = "<group>"; };
 		EC0A55D11BF7522000E84757 /* TempVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempVC.m; sourceTree = "<group>"; };
 		EC0A55D21BF7522000E84757 /* TempVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TempVC.xib; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				EC0A55D11BF7522000E84757 /* TempVC.m */,
 				EC0A55D21BF7522000E84757 /* TempVC.xib */,
 				EC0A55D51BF7534100E84757 /* back1.png */,
+				E7EAA31D1BFB031C00BD3DFB /* demo.png */,
 			);
 			path = Employer;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7EAA31E1BFB031C00BD3DFB /* demo.png in Resources */,
 				ECDDD0DD1BF59BF200E17EDF /* CustomCell.xib in Resources */,
 				ECDDD0BA1BF584E400E17EDF /* Main.storyboard in Resources */,
 				EC0A55D41BF7522000E84757 /* TempVC.xib in Resources */,

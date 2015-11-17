@@ -266,10 +266,29 @@ static NSString * const kTableViewPanState = @"state";
         _rightUtilityButtons = rightUtilityButtons;
         
         self.rightUtilityButtonsView.utilityButtons = rightUtilityButtons;
-
+        [self drawInnerShadowOnView:self.rightUtilityButtonsView];
         [self.rightUtilityButtonsView layoutIfNeeded];
         [self layoutIfNeeded];
     }
+}
+
+-(void)drawInnerShadowOnView:(UIView *)view
+{
+    UIImageView *innerShadowView = [[UIImageView alloc] initWithFrame:view.bounds];
+    innerShadowView.image = [UIImage imageNamed:@"demo.png"];
+    
+    CGRect frame = innerShadowView.frame;
+    frame.size.width = 90;
+    innerShadowView.frame = frame;
+    
+    innerShadowView.contentMode = UIViewContentModeScaleToFill;
+    innerShadowView.autoresizingMask =  UIViewAutoresizingFlexibleHeight;
+    
+    [view addSubview:innerShadowView];
+    
+    [innerShadowView.layer setMasksToBounds:YES];
+    
+    
 }
 
 - (void)setRightUtilityButtons:(NSArray *)rightUtilityButtons WithButtonWidth:(CGFloat) width
