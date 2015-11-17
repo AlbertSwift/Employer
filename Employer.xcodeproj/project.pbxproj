@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EBC82220CB3147AB0C5AD3B7 /* libPods-Employer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4DD0ADA37D2F366469955C2 /* libPods-Employer.a */; };
+		EC0A55D31BF7522000E84757 /* TempVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0A55D11BF7522000E84757 /* TempVC.m */; };
+		EC0A55D41BF7522000E84757 /* TempVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC0A55D21BF7522000E84757 /* TempVC.xib */; };
+		EC0A55D61BF7534100E84757 /* back1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A55D51BF7534100E84757 /* back1.png */; };
 		ECDDD0B11BF584E400E17EDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDDD0B01BF584E400E17EDF /* main.m */; };
 		ECDDD0B41BF584E400E17EDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDDD0B31BF584E400E17EDF /* AppDelegate.m */; };
 		ECDDD0B71BF584E400E17EDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDDD0B61BF584E400E17EDF /* ViewController.m */; };
@@ -14,6 +18,11 @@
 		ECDDD0BC1BF584E400E17EDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECDDD0BB1BF584E400E17EDF /* Images.xcassets */; };
 		ECDDD0BF1BF584E400E17EDF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECDDD0BD1BF584E400E17EDF /* LaunchScreen.xib */; };
 		ECDDD0CB1BF584E500E17EDF /* EmployerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDDD0CA1BF584E500E17EDF /* EmployerTests.m */; };
+		ECDDD0D71BF5918500E17EDF /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDDD0D51BF5918500E17EDF /* HomeVC.m */; };
+		ECDDD0D81BF5918500E17EDF /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECDDD0D61BF5918500E17EDF /* HomeVC.xib */; };
+		ECDDD0DC1BF59BF200E17EDF /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDDD0DA1BF59BF200E17EDF /* CustomCell.m */; };
+		ECDDD0DD1BF59BF200E17EDF /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECDDD0DB1BF59BF200E17EDF /* CustomCell.xib */; };
+		ECDE61E21BF6484D00006A13 /* TableShare.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDE61E11BF6484D00006A13 /* TableShare.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2997A3BB9BEA3E652A647F1F /* Pods-Employer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Employer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Employer/Pods-Employer.release.xcconfig"; sourceTree = "<group>"; };
+		710B0055535D6F8DE2FA741D /* Pods-Employer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Employer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Employer/Pods-Employer.debug.xcconfig"; sourceTree = "<group>"; };
+		B4DD0ADA37D2F366469955C2 /* libPods-Employer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Employer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0A55D01BF7522000E84757 /* TempVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempVC.h; sourceTree = "<group>"; };
+		EC0A55D11BF7522000E84757 /* TempVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempVC.m; sourceTree = "<group>"; };
+		EC0A55D21BF7522000E84757 /* TempVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TempVC.xib; sourceTree = "<group>"; };
+		EC0A55D51BF7534100E84757 /* back1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back1.png; sourceTree = "<group>"; };
 		ECDDD0AB1BF584E400E17EDF /* Employer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Employer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDDD0AF1BF584E400E17EDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECDDD0B01BF584E400E17EDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +56,14 @@
 		ECDDD0C41BF584E500E17EDF /* EmployerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmployerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDDD0C91BF584E500E17EDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECDDD0CA1BF584E500E17EDF /* EmployerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployerTests.m; sourceTree = "<group>"; };
+		ECDDD0D41BF5918500E17EDF /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		ECDDD0D51BF5918500E17EDF /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		ECDDD0D61BF5918500E17EDF /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		ECDDD0D91BF59BF200E17EDF /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		ECDDD0DA1BF59BF200E17EDF /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		ECDDD0DB1BF59BF200E17EDF /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		ECDE61E01BF6484D00006A13 /* TableShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableShare.h; sourceTree = "<group>"; };
+		ECDE61E11BF6484D00006A13 /* TableShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableShare.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBC82220CB3147AB0C5AD3B7 /* libPods-Employer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +85,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F29C71D7350CBAEE702011B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				710B0055535D6F8DE2FA741D /* Pods-Employer.debug.xcconfig */,
+				2997A3BB9BEA3E652A647F1F /* Pods-Employer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E225E3E0100187F0FB82D20C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4DD0ADA37D2F366469955C2 /* libPods-Employer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ECDDD0A21BF584E400E17EDF = {
 			isa = PBXGroup;
 			children = (
 				ECDDD0AD1BF584E400E17EDF /* Employer */,
 				ECDDD0C71BF584E500E17EDF /* EmployerTests */,
 				ECDDD0AC1BF584E400E17EDF /* Products */,
+				9F29C71D7350CBAEE702011B /* Pods */,
+				E225E3E0100187F0FB82D20C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +133,18 @@
 				ECDDD0BB1BF584E400E17EDF /* Images.xcassets */,
 				ECDDD0BD1BF584E400E17EDF /* LaunchScreen.xib */,
 				ECDDD0AE1BF584E400E17EDF /* Supporting Files */,
+				ECDDD0D41BF5918500E17EDF /* HomeVC.h */,
+				ECDDD0D51BF5918500E17EDF /* HomeVC.m */,
+				ECDDD0D61BF5918500E17EDF /* HomeVC.xib */,
+				ECDDD0D91BF59BF200E17EDF /* CustomCell.h */,
+				ECDDD0DA1BF59BF200E17EDF /* CustomCell.m */,
+				ECDDD0DB1BF59BF200E17EDF /* CustomCell.xib */,
+				ECDE61E01BF6484D00006A13 /* TableShare.h */,
+				ECDE61E11BF6484D00006A13 /* TableShare.m */,
+				EC0A55D01BF7522000E84757 /* TempVC.h */,
+				EC0A55D11BF7522000E84757 /* TempVC.m */,
+				EC0A55D21BF7522000E84757 /* TempVC.xib */,
+				EC0A55D51BF7534100E84757 /* back1.png */,
 			);
 			path = Employer;
 			sourceTree = "<group>";
@@ -126,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECDDD0CE1BF584E500E17EDF /* Build configuration list for PBXNativeTarget "Employer" */;
 			buildPhases = (
+				6D02F1E3CEFBFFA0106FC2D6 /* Check Pods Manifest.lock */,
 				ECDDD0A71BF584E400E17EDF /* Sources */,
 				ECDDD0A81BF584E400E17EDF /* Frameworks */,
 				ECDDD0A91BF584E400E17EDF /* Resources */,
+				088996E3DEDC8BCB4D492E8F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,6 +226,7 @@
 				TargetAttributes = {
 					ECDDD0AA1BF584E400E17EDF = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = DEP7TTK6BN;
 					};
 					ECDDD0C31BF584E500E17EDF = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -199,7 +258,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECDDD0DD1BF59BF200E17EDF /* CustomCell.xib in Resources */,
 				ECDDD0BA1BF584E400E17EDF /* Main.storyboard in Resources */,
+				EC0A55D41BF7522000E84757 /* TempVC.xib in Resources */,
+				ECDDD0D81BF5918500E17EDF /* HomeVC.xib in Resources */,
+				EC0A55D61BF7534100E84757 /* back1.png in Resources */,
 				ECDDD0BF1BF584E400E17EDF /* LaunchScreen.xib in Resources */,
 				ECDDD0BC1BF584E400E17EDF /* Images.xcassets in Resources */,
 			);
@@ -214,14 +277,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		088996E3DEDC8BCB4D492E8F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Employer/Pods-Employer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D02F1E3CEFBFFA0106FC2D6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ECDDD0A71BF584E400E17EDF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC0A55D31BF7522000E84757 /* TempVC.m in Sources */,
 				ECDDD0B71BF584E400E17EDF /* ViewController.m in Sources */,
+				ECDDD0D71BF5918500E17EDF /* HomeVC.m in Sources */,
+				ECDE61E21BF6484D00006A13 /* TableShare.m in Sources */,
 				ECDDD0B41BF584E400E17EDF /* AppDelegate.m in Sources */,
 				ECDDD0B11BF584E400E17EDF /* main.m in Sources */,
+				ECDDD0DC1BF59BF200E17EDF /* CustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +380,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: christian MCMURRAY (4MPM33GWM5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: christian MCMURRAY (4MPM33GWM5)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -302,6 +403,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "1b5ae77a-042c-4e71-89af-ddddca5bb9ed";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -324,7 +426,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: christian MCMURRAY (4MPM33GWM5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: christian MCMURRAY (4MPM33GWM5)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -339,6 +442,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "1b5ae77a-042c-4e71-89af-ddddca5bb9ed";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -347,21 +451,27 @@
 		};
 		ECDDD0CF1BF584E500E17EDF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 710B0055535D6F8DE2FA741D /* Pods-Employer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: christian MCMURRAY (4MPM33GWM5)";
 				INFOPLIST_FILE = Employer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1b5ae77a-042c-4e71-89af-ddddca5bb9ed";
 			};
 			name = Debug;
 		};
 		ECDDD0D01BF584E500E17EDF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2997A3BB9BEA3E652A647F1F /* Pods-Employer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: christian MCMURRAY (4MPM33GWM5)";
 				INFOPLIST_FILE = Employer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1b5ae77a-042c-4e71-89af-ddddca5bb9ed";
 			};
 			name = Release;
 		};
@@ -418,6 +528,7 @@
 				ECDDD0D01BF584E500E17EDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECDDD0D11BF584E500E17EDF /* Build configuration list for PBXNativeTarget "EmployerTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +537,7 @@
 				ECDDD0D31BF584E500E17EDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

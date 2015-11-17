@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TempVC">
+            <connections>
+                <outlet property="lblTitle" destination="hgR-rc-QaT" id="eps-KB-ix0"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U7F-TI-agA">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PcD-ks-CnO">
+                            <rect key="frame" x="0.0" y="10" width="44" height="44"/>
+                            <state key="normal" image="back1.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnBackClick:" destination="-1" eventType="touchUpInside" id="PZ4-Zs-syp"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hgR-rc-QaT">
+                            <rect key="frame" x="42" y="10" width="237" height="42"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="42" id="PsS-PI-WQp"/>
+                                <constraint firstAttribute="width" constant="237" id="oDr-Xr-m6n"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="hgR-rc-QaT" firstAttribute="top" secondItem="U7F-TI-agA" secondAttribute="top" constant="10" id="5zq-5G-bik"/>
+                        <constraint firstAttribute="height" constant="64" id="6ok-bZ-IVz"/>
+                        <constraint firstAttribute="centerX" secondItem="hgR-rc-QaT" secondAttribute="centerX" id="biE-Zp-5Xs"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="U7F-TI-agA" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="73i-cP-8t2"/>
+                <constraint firstAttribute="trailing" secondItem="U7F-TI-agA" secondAttribute="trailing" id="CxX-M9-e2w"/>
+                <constraint firstItem="U7F-TI-agA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="uV8-DH-yYh"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="537" y="159"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back1.png" width="32" height="32"/>
+    </resources>
+</document>
